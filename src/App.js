@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import imageUrl from './myimage.jpeg';
+import imageUrl from './myimage.png';
 import Magento_Logo from './magento-logo.png';
 import laravel_Logo from './Laravel-logo.jpeg';
 import Net_Core from './net_core_logo.png';
