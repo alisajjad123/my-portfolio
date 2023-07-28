@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import imageUrl from './myimage.jpeg';
 
 const scrollUp = document.querySelector("#scroll-up");
 const ul = document.querySelector("nav ul");
@@ -8,9 +9,14 @@ const burger = document.querySelector("#burger-menu");
 
 
 
+
 const Portfolio = () => {
   return (
-    <><><nav>
+    <><>
+    <title>
+      Ali Sajjad Profile
+    </title>
+    <nav>
       <h1>ALi Sajjad</h1>
       <ul class="navigation">
         <li><a href="#about" class="nav-link">About</a></li>
@@ -25,34 +31,26 @@ const Portfolio = () => {
 
       <section class="hero" id="about">
         <img
-          src="/Users/mac16/myportfolio/src/assets/images/wfh_1.jpg"
+          src={imageUrl}
           alt="Ali-Sajjad"
           loading="lazy"
           class="hero-img" />
         <div class="bio animate__animated animate__shakeX">
           <h2 class="bio-title">About Me</h2>
           <p class="bio-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-            dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-            inventore tempore minus nemo, iste ullam illo laboriosam maiores
-            repudiandae quos!
+          I am a highly motivated and versatile software engineer with a passion for building innovative and impactful solutions. Graduated from Punjab University College of Information Technology (PUCIT), I have honed my skills and expertise in various technology stacks and programming languages, allowing me to tackle diverse challenges and deliver high-quality software solutions.
           </p>
         </div>
       </section></><section class="more-about">
         <h2>More About Me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-          autem deleniti cupiditate molestias quis unde quae totam porro dicta
-          iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+        My problem-solving skills and ability to think critically have allowed me to tackle complex challenges with innovative solutions. Throughout my career, I have demonstrated strong analytical capabilities, working collaboratively with cross-functional teams to deliver projects on time and within scope.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-          nostrum dolor minus, libero delectus praesentium perferendis
+        I have 1-year of practical experience in web development, specializing in Magento, Laravel, .NET Core, HTML, and CSS. Working with these technologies, I have successfully delivered robust and user-friendly web applications, meeting the specific needs of clients and businesses.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-          consequuntur labore? Ea totam voluptas amet!
+        As technology is constantly evolving, I am dedicated to continuous learning and staying up-to-date with the latest advancements in the software industry. This passion for learning enables me to adopt new technologies rapidly and ensures I am always well-equipped to meet the demands of modern software development.
         </p>
       </section>
       <section class="skills" id="skills">
@@ -202,28 +200,21 @@ const Portfolio = () => {
       </div>
     </section>
     <div class="socials">
-      <a href="#" target="_blank"
+      <a href="https://www.instagram.com/iamaligreat/" target="_blank"
         ><img
-          src="assets/icons/icons8-twitter-circled.gif"
-          alt="Twitter"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          src="assets/icons/icons8-instagram.gif"
+          src="https://media.giphy.com/media/l41YmiCZ8HXvVl5M4/giphy.gif"
           alt="Instagram"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <a href="https://www.linkedin.com/in/ali-sajjad-095365183" target="_blank"
         ><img
           src="assets/icons/icons8-linkedin-circled.gif"
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <a href="https://github.com/alisajjad123" target="_blank"
         ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
       /></a></div>
 <i class="scroll-up" id="scroll-up"
