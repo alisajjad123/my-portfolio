@@ -1,6 +1,11 @@
 import React from 'react';
 import './App.css';
 import imageUrl from './myimage.jpeg';
+import Magento_Logo from './magento-logo.png';
+import laravel_Logo from './Laravel-logo.jpeg';
+import Net_Core from './net_core_logo.png';
+import Linkedin_gif from './Linkedin_gif.gif';
+import Github_gif from './github.gif';
 
 const scrollUp = document.querySelector("#scroll-up");
 const ul = document.querySelector("nav ul");
@@ -59,45 +64,26 @@ const Portfolio = () => {
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
           <img
-            src="assets/icons/icons8-html-5.svg"
+            src={Magento_Logo}
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-css3.svg"
+            src={laravel_Logo}
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-javascript.svg"
+            src={Net_Core}
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
         </div>
 
-        <div class="second-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/icons8-bootstrap.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-react-native.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-git.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
+        
       </div>
     </section>
     <section class="projects" id="projects">
@@ -209,13 +195,13 @@ const Portfolio = () => {
       /></a>
       <a href="https://www.linkedin.com/in/ali-sajjad-095365183" target="_blank"
         ><img
-          src="assets/icons/icons8-linkedin-circled.gif"
+          src={Linkedin_gif}
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
       <a href="https://github.com/alisajjad123" target="_blank"
-        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+        ><img src={Github_gif} alt="Github" class="socicon"
       /></a></div>
 <i class="scroll-up" id="scroll-up"
       ><img
