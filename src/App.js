@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import imageUrl from './myimage.png';
+import Laravel_logo from './Laragigs.png';
+import bizbox_logo from './Bizbox-ss.png';
 import Magento_Logo from './magento-logo.png';
 import laravel_Logo from './Laravel-logo.jpeg';
 import Net_Core from './net_core_logo.png';
@@ -91,31 +93,27 @@ const Portfolio = () => {
       <div class="projects-container">
         <div class="project-container project-card">
           <img
-            src="assets/images/expenseTracker.png"
+            src={bizbox_logo}
             alt="expense-tracker"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Expense Tracker</h3>
+          <h3 class="project-title">BIZBOX</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+          During my tenure at Bizbox.com, I played a vital role in updating the platform to the latest version of Magento, ensuring improved performance, enhanced security, and a seamless user experience. Additionally, I took sole responsibility for crafting and developing the website's landing page, showcasing my proficiency in front-end technologies like HTML, CSS, and JavaScript. Through meticulous problem-solving, I addressed various challenges and successfully resolved critical issues, contributing significantly to the overall success of the project. My dedication to delivering high-quality results and my ability to work independently have been instrumental in driving positive outcomes for the Bizbox.com team.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://www.bizboxinc.com/" target="_blank" class="project-link">Check it Out</a>
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/images/netflixClone.png"
+            src={Laravel_logo}
             alt="netflic-clone"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Netflix Clone</h3>
+          <h3 class="project-title">LARAGIGS</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+          As part of my journey to master the Laravel framework, I undertook an ambitious project to develop the Laragigs app. Leveraging a combination of self-learning and guidance from a comprehensive YouTube tutorial, I single-handedly designed and created the application from the ground up. Through this hands-on experience, I deepened my understanding of Laravel's intricacies, including its powerful features for building robust web applications. Building the Laragigs app not only solidified my proficiency in PHP and Laravel but also honed my skills in database management, API integration, and front-end development. This project not only served as an exceptional learning opportunity but also instilled in me the confidence to take on complex development challenges.
           </p>
           <a href="#" target="_blank" class="project-link">Check it Out</a>
         </div>
