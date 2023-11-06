@@ -117,7 +117,6 @@ const Portfolio = () => {
           </p>
           <a href="#" target="_blank" class="project-link">Check it Out</a>
         </div>
-        
       </div>
     </section>
     <section class="contact" id="contact">
@@ -187,12 +186,12 @@ const Portfolio = () => {
       <a href="https://github.com/alisajjad123" target="_blank"
         ><img src={Github_gif} alt="Github" class="socicon"
       /></a></div>
-<i class="scroll-up" id="scroll-up"
+{/* <i class="scroll-up" id="scroll-up"
       ><img
         src="assets/icons/icons8-upward-arrow.gif"
         class="socicon up-arrow"
         alt="scroll-up"
-    /></i>
+    /></i> */}
     
       </>
       

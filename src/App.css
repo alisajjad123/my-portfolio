@@ -317,7 +317,7 @@ nav ul li {
     }
 
   .bio {
-    margin-top: -7rem;
+    margin-top: 1rem;
     width: 20.5rem;
   }
   .more-about {
@@ -355,6 +355,7 @@ nav ul li {
 
   .bio {
     width: 18.3rem;
+    margin-top: 8px;
   }
 
   .project-container {
